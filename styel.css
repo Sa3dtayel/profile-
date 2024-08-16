@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+body{
+    height: 90vh;
+    width: 100%;
+   background: url(imj/background.png) scroll no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+header{
+    width: 100%;
+height: 50px;
+    background-color: rgba(0, 0, 0, 0.664);
+    position: fixed;
+    z-index: 100;
+}
+nav {
+    
+    font-family: "Inter", sans-serif;
+    color: white;
+    display: flex;
+    padding: 15px;
+    width: 100%;
+   
+}
+nav h1{
+    text-transform: uppercase;
+    width: 30%;
+    text-align: center;
+    padding-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+nav ul{
+   
+    width: 70%;
+    display: flex;
+   justify-content: space-evenly;
+    list-style: none;
+    
+}
+
+nav ul a{
+    color: white;
+  font-size: 18px;
+text-decoration: none;
+    text-transform: uppercase;
+    transition:  1s;
+}
+nav ul a:hover{
+  transform: scale(1.1);
+    color: red;
+
+}
+h2{
+   padding-top: 40px;
+    text-align: center;
+    color: black;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 50px;
+    
+}
+span{
+     border-bottom: 1px solid;
+}
+
+.home{
+    background-color: rgba(0, 0, 0, 0.562);
+    width: 100%;
+    height:105vh;
+    display: flex;
+}
+.home-info{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+.home-info h1{
+    color: rgb(168, 108, 108);
+    margin: 15px;
+    font-size: 50px;
+}
+/* .home-info a{ */
+#botm{
+    margin: 30px;
+    padding-top: 6px;
+    display: inline-block;
+    
+    width: 100px;
+    height: 35px;
+    background-color:transparent;
+color: rgba(255, 255, 255, 0.5);
+text-decoration: none;
+font-size: 20px;
+border-radius: 20px;
+ border: 1px solid rgba(255, 255, 255, 0.507); 
+}
+#botm:hover{
+    color: white;
+border: 1px solid white;
+background-color: transparent;
+transition: 1s;
+}
+.about{
+    margin-top: 50px;
+    height: 100vh;
+    width: 100%;
+    
+}
+ .about-con{
+    font-family: "Inter", sans-serif;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-text{
+    width: 70%;
+    padding: 20px;
+} 
+.about-text h3{
+    margin: 10px;
+    font-size: 24px;
+}
+.about-text p{
+    color: rgba(66, 101, 102, 0.938);
+}
+.about-text h3 span{
+    font-size: 30px;
+    color: rgb(161, 139, 180);
+    border: none;
+    
+}
+.about-info{
+    padding:40px;
+    font-size: 17px;
+}
+.about-info table th{
+    padding-right: 10px ;
+    padding-bottom: 5px;
+}
+.about-info table th,td{
+    border-bottom: 1px solid black;
+}
+.about-info #botm{
+    color: white;
+    background-color: gray;
+    width: 125px;
+    height: 15px;
+    padding-bottom: 30px ;
+    padding-left: 14px ;
+    border-radius: 20px;
+font-size: 14px;
+}
+.about-info #botm:hover{
+    background-color: rgb(31, 26, 16);
+}
+.about-info #botm span{
+    border-bottom: none;
+  
+}
+
+.table{
+    width: 90%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+    color: rgba(66, 101, 102, 0.938);
+}
+.table table th,td{
+    padding: 10px;
+    border-bottom:none;
+}
+.servis{
+    background-color: rgb(233, 250, 250);
+    height: 100vh;
+}
+.servis h2{
+    padding-top: 50px;
+}
+.servis-con{
+    width:60%;
+    margin: auto;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.servis-con table th{
+    cursor: pointer;
+    padding-right: 15px;
+    padding-left: 40px;
+}
+.servis-con table td h4{
+    margin-bottom: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+    color: rgba(51, 33, 33, 0.911);
+}
+.servis-con table td p{
+    width:300px;
+}
+
+
+.con-summry{
+    width:80%;
+   
+    margin: auto;
+   
+    display: flex;
+}
+.con-summry table{
+    margin: auto;
+}
+
+.item-summry{
+    margin: 5px;
+    padding: 15px;
+    border: 2px solid rgb(153, 82, 219);
+   width: 400px;
+  
+   border-radius: 20px;
+}
+.item-summry h3{
+    padding: 8px;
+}
+.item-summry h4{
+    background-color: rgb(111, 131, 111);
+    display: inline-block;
+    color: white;
+    border:4 solid rgb(176, 211, 176);
+    border-radius: 5px;
+}
+.item-summry h5,p{
+color: rgb(74, 63, 83);
+}
+.skills{
+    width: 100%;
+    margin: auto;
+    
+}
+.rang{
+    position: relative;
+    width: 80%;
+    left: 15%;
+}
+.item-rang label{
+    margin: 10px;
+    display: block;
+    text-transform: capitalize;
+
+}
+.item-rang{
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    padding:10px;
+}
+.item-rang input {
+   
+    width: 380px;
+    margin-right: 15px;
+  cursor: pointer;
+outline: none;
+}
+#web-r{
+    text-align: center;
+    padding-left: 35px;
+    border-bottom: none;
+    margin-left: 20%;
+}
+#hc-r{
+    text-align: center;
+    padding-left: 35px;
+    border-bottom: none;
+    margin-left: 50%;
+}
+#js-r{
+    text-align: center;
+    padding-left: 20px;
+    border-bottom: none;
+    margin-left: 40%;
+}
+#rj-r{
+    text-align: center;
+    padding-left: 40px;
+    border-bottom: none;
+    margin-left: 30%;
+}
+#aj-r{
+    text-align: center;
+    padding-left: 40px;
+    border-bottom: none;
+    margin-left:20%;
+}
+#bs-r{
+    text-align: center;
+    padding-left: 50px;
+    border-bottom: none;
+    margin-left:50%;
+}
+.skills #botm{
+    padding-top: 10px;
+    position: relative;
+    left: 40%;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.863);
+    border: 1px dotted rgba(0, 0, 0, 0.74);
+    width: 140px;
+    font-size: 19px;
+    padding-left:  20px;
+}
+.skills #botm:hover{
+    color: white;
+    background-color: aqua;
+    transition: 0.4s;
+}
+.project{
+height: 110vh;
+background-color:rgba(233, 250, 250, 0.575);
+}
+.project h2{
+    padding-top: 60px;
+}
+.con-project{
+    width: 80%;
+    height: 90%;
+    margin: auto;
+  
+}
+.text-project{
+    width: 100%;
+   border-bottom: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.text-project span{
+    border-bottom: none;
+}
+.img-project{
+    width: 100%;
+    height: 90%;
+    padding: 10%;
+   
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:start;
+
+    flex-direction: row-reverse;
+    justify-content: center;
+
+}
+.img1{
+    width: 150px;
+    height: 130px; 
+    margin: 10px;   
+}
+.img2{
+    width: 200px;
+    height: 240px; 
+    margin: 10px;   
+}
+.img3{
+    width: 150px;
+    height: 180px; 
+    margin: 10px;   
+}
+.img4{
+    width: 160px;
+    height: 150px; 
+    margin: 10px;   
+}
+.img5{
+    width: 150px;
+    height: 160px; 
+    margin: 10px;   
+    position: relative;
+    top: 60%;
+    left: 21%;
+}
+.img6{
+    width: 200px;
+    height: 130px; 
+    position: relative;
+    left: 1%;
+    
+}
+.img7{
+    width: 150px;
+    height: 160px; 
+   
+    position: relative;
+    left: 46%;
+    bottom: 28%;  
+}
+.comment{
+    height: 100vh;
+}
+.con-comment{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.item-comment{
+    background-color: rgba(241, 241, 241, 0.774);
+    width: 40%;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.616);
+border-radius: 10px;
+}
+.item-comment span{
+border-bottom: none;
+color: gold;
+display: inline-block;
+
+}
+.img-comment{
+    width: 100%;
+    display: flex;
+    padding: 5px;
+
+}
+.img-comment img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.img-comment p {
+    display: flex;
+    align-items: center;
+}
+
+.contact{
+    height: 100vh;
+    background-color:rgba(233, 250, 250, 0.575);
+}
+.con-con{
+    width: 80%;
+    margin: auto;
+    background-color: aliceblue;
+    display: flex;
+}
+.text1{
+    width: 30%;
+    padding: 20px;
+}
+.text1 h3{
+    margin: 10px;
+}
+.text1 span{
+    border-bottom: none;
+}
+.t1{
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+.text2{
+    padding: 18px;
+  
+}
+#in{
+    font-size: 20px;
+    margin: 10px;
+    height: 34px;
+    width: 300px;
+    padding: 5px;
+}
+#in2{
+    margin: 10px;
+    width: 86%;
+    height: 150px;
+    padding: 20px;
+    font-size: 18px;
+}
+.text2 #botm{
+    color: white;
+    background-color: rgb(104, 122, 105);
+    width: 150px;
+    height: 33px;
+    padding-left: 8px;
+    text-align: center;
+  position: relative;
+  left: 33%;
+  
+}
+.text2 #botm:hover{
+    background-color: transparent;
+    color:  rgb(104, 122, 105);
+    border: 1px solid  rgb(104, 122, 105);
+}
+footer{
+    height: 10vh;
+    background-color: antiquewhite;
+    color: red;
+}
